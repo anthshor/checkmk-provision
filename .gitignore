@@ -1,2 +1,3 @@
 .vagrant/
 software/*rpm
+oracle-monitoring/
