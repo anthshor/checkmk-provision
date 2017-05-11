@@ -1,4 +1,4 @@
-# checkmk-provision
+# Check_MK Install
 
 Requires base box. I used my own (anthshor/ol69) Oracle Linux 6 update 9, out of the box install. 
 
