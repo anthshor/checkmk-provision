@@ -1,4 +1,4 @@
-# Check_MK Install
+# Check_MK Install with Vagrant
 
 Requires base box. I used my own (anthshor/ol69) Oracle Linux 6 update 9, out of the box install. 
 
