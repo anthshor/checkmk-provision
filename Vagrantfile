@@ -1,7 +1,7 @@
 MY_VAR = ENV['MY_VAR']
 vm_name = "checkmk.zoomer"
 Vagrant.configure("2") do |config|
-  config.vm.box = "anthshor/ol69"
+  config.vm.box = "anthshor/ol6"
   config.vm.hostname = vm_name
   config.vm.synced_folder "~/proxy", "/proxy"
   config.vm.synced_folder "software", "/u01/software"
