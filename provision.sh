@@ -18,4 +18,7 @@ omd status mysite
 service httpd start
 service nagios start
 
-##yum install /u01/software/check-mk-agent-1.2.8p23-1.noarch.rpm -y
+yum install /opt/omd/versions/1.2.8p23.cre/share/check_mk/agents/check-mk-agent-1.2.8p23-1.noarch.rpm -y
+
+# Copy for transfer later
+cp /opt/omd/versions/1.2.8p23.cre/share/check_mk/agents/check-mk-agent-1.2.8p23-1.noarch.rpm /u01/software
